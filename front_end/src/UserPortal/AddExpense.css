@@ -1,0 +1,101 @@
+.big-container{
+    display:flex;
+}
+
+.expense-container{
+    margin: 50px auto;
+    width: 60%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+}
+
+.expense-content{
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgb(79, 209, 198) 0%, rgb(128, 108, 202) 100%);
+  }
+
+  .expense-btn {
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 5px;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    background: linear-gradient(
+      90deg,
+      rgb(142, 85, 156) 0%,
+      rgba(112, 67, 170, 0.87) 100%
+    );
+    outline: none;
+    border: none;
+    color: rgb(8, 16, 124);
+    font-size: 1.5rem;
+  }
+
+  .expense-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(34, 124, 221) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+
+  .expense-form {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .expense-form-inputs {
+    margin-bottom: 0.5rem;
+    margin-left: 2.5rem;
+    margin-right: .5rem;
+    width: 80%;
+    
+  }
+  
+  .expense-form-item {
+    display: flex;
+    margin:auto;
+   }
+  
+  .expense-form-label {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  .expense-form-label-h {
+    display: inline-block;
+    font-size: 1.8rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .expense-form-input {
+    display: inline-block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 80%;
+  }
+  
+  .expense-form-input::placeholder {
+    color: #595959;
+    font-size: 12px;
+  }

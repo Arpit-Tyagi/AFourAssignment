@@ -1,0 +1,47 @@
+.big-container{
+    display:flex;
+}
+
+.container{
+    margin: 50px auto;
+    width: 25%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 200px;
+    display: block;
+    grid-template-columns: 1fr 1fr;
+}
+
+.content{
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgb(79, 209, 198) 0%,rgb(210, 172, 218) 60%, rgb(128, 108, 202) 100%);
+  }
+
+  .userPortal-btn {
+   
+    width: auto;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(74, 150, 212) 0%,
+      rgba(23, 90, 192, 0.87) 100%
+    );
+    outline: none;
+    border: none;
+    color: rgb(8, 16, 124);
+    font-size: 1.5rem;
+  }
+
+  .userPortal-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(34, 124, 221) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }

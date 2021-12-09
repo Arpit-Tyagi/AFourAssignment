@@ -1,0 +1,92 @@
+.login-form-container {
+    margin: 50px auto;
+    width: 80%;
+    box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 7px 20px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  
+  .login-form-content {
+    border-radius: 10px 10px 10px 10px;
+    position: relative;
+    background: linear-gradient(90deg, rgb(122, 106, 106) 0%, rgb(100, 30, 30) 100%);
+  }
+  
+  .login-form {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .login-form h1 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    text-align: center;
+    color: #fff;
+  }
+  
+  .login-form-inputs {
+    margin-bottom: 0.5rem;
+    width: 80%;
+  }
+  
+  
+  .login-form-label {
+    display: flex;
+    font-size: 2.5rem;
+    margin-bottom: 6px;
+    color: #fff;
+  }
+  
+  .login-form-input {
+    display: block;
+    padding-left: 10px;
+    outline: none;
+    border-radius: 2px;
+    height: 40px;
+    width: 100%;
+    border: none;
+  }
+ 
+  
+  .login-form-input-btn {
+    width: 60%;
+    height: 50px;
+    margin-top: 10px;
+    border-radius: 2px;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 176, 255) 0%,
+      rgb(0, 232, 236) 100%
+    );
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .login-form-input-btn:hover {
+    cursor: pointer;
+    background: linear-gradient(
+      90deg,
+      rgb(39, 143, 255) 0%,
+      rgb(12, 99, 250) 100%
+    );
+    transition: all 0.4s ease-out;
+  }
+  
+  
+  
+ 
+  
